@@ -1,14 +1,9 @@
-## Getting Started
+## 数当てゲーム
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+ソースコード：kazuate/src/main/kazuate.java
 
-## Folder Structure
+## ルール
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-## Dependency Management
-
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+- 起動時、0-99の数字がランダムで決まる
+- その後、ユーザは5回でその数を当てる
+- 入力と正解が20以上異なる場合、ヒントとしてその情報を与える
