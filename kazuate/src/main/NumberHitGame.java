@@ -18,7 +18,7 @@ public class NumberHitGame {
         System.out.println("数当てゲームを始めます。");
         System.out.printf("0-99の数字を当ててみてください(正解：%d)\n", correctNumber);
 
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= 5; i++) {// 5回入力のチャンスを与える
             System.out.printf("%d回目 1-99の数値を入力：", i);
             number = inputNumber();
 
