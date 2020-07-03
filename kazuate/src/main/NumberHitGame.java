@@ -30,7 +30,11 @@ public class NumberHitGame {
                 break;
 
             } else {// 不正解の場合
-                System.out.printf("入力：%d はずれです...\n", number);
+                if (number > correctNumber) {// 正解より大きい数値を入力した場合
+                    System.out.printf("入力：%d はずれです...もっと小さい値を入力してください\n", number);
+                } else {// 正解より小さい数値を入力した場合
+                    System.out.printf("入力：%d はずれです...もっと大きい値を入力してください\n", number);
+                }
 
                 // 20以上離れていれば、その旨を出力する
                 if (Math.abs(number - correctNumber) >= 20) {
