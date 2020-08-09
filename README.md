@@ -23,14 +23,14 @@ GitHub フローの練習用
   
 ## 初期画面----------------------------------------
 
-<img src="./readme_pic/t01.jpg">
+<img src="./つぶやき/readme_pic/t01.jpg">
 
 ## つぶやきの追加----------------------------------------
 
-<img src="./readme_pic/t02.jpg">
+<img src="./つぶやき/readme_pic/t02.jpg">
 
 ## 検索結果----------------------------------------
 
-<img src="./readme_pic/t03.jpg">
+<img src="./つぶやき/readme_pic/t03.jpg">
 
 
